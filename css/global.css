@@ -1,0 +1,77 @@
+*{
+    font-family: Roboto;
+    font-weight: normal 500;
+}
+
+/*cores*/
+.bg-dark-custom {
+    background-color: #0B0B0B;
+    color: white;
+}
+
+.text-color-custom{
+    background: linear-gradient(262deg, #952896 30.65%, #1364C8 60.99%, #1AAE75 88.44%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.btn-custom{
+    border-width: 1px;
+    border-style: solid;
+    border-image: linear-gradient(262deg, #952896 30.65%, #1364C8 60.99%, #1AAE75 88.44%) 1;
+    border-radius: 10px;
+}
+
+.botão{
+        position: relative; 
+        color: #FFF;
+        padding: 0.5em 1.5em;
+        font-size: 20px;
+        font-weight: 500;
+        border: 0;
+        border-radius: 10px;
+        background: linear-gradient(90deg, rgba(26,174,117,1) 0%, rgba(19,100,200,1) 50%, rgba(149,40,150,1) 100%);
+        border: 1px transparent;
+        margin-right: 20px;
+        z-index: 1;
+    }
+    
+.botão:before {
+        content: '';
+        position: absolute;
+        top: -2px;
+        left: -2px;
+        right: -2px;
+        bottom: -2px; 
+        background: linear-gradient(90deg, rgba(26,174,117,1) 0%, rgba(19,100,200,1) 50%, rgba(149,40,150,1) 100%);
+        border-radius: 10px; 
+        z-index: -1;
+        filter: blur(30px); 
+        opacity: 0.5;
+    }
+
+.custom-card {
+    width: 540px;
+    height: 590px;
+    border-radius: 98px;
+    gap: 50px;
+    color: #fff;
+    background-color: #131313;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.custom-card::before{
+        content: '';
+        position: absolute;
+        top: -2px;
+        left: -2px;
+        right: -2px;
+        bottom: -2px; 
+        background: linear-gradient(90deg, rgba(26,174,117,1) 0%, rgba(19,100,200,1) 50%, rgba(149,40,150,1) 100%);
+        border-radius: 10px; 
+        z-index: -1;
+        filter: blur(30px); 
+        opacity: 0.5;
+    }

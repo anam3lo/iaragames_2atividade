@@ -1,0 +1,119 @@
+.custom-navbar {
+    background-color: #131313;
+    border-radius: 0px 0px 65px 65px;
+}
+
+nav{
+    box-shadow: 0 0 20px 10px rgba(8, 2, 187, 0.5);
+}
+
+main{
+    padding-top: 85px;
+}
+
+.primeira-parte{
+    padding-top: 70px;
+    padding-left: 104px;
+}
+
+.titulo-site{
+    font-size: 90px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    width: 582px;
+    height: 315px;
+}
+
+.paragrafo1{
+    padding: 30px 0px 40px 0px;
+    width: 500px;
+    color: #ffffffda;
+    font-weight: 400;
+    font-size: 1.15rem;
+}
+
+.line{
+    display: flex;
+    justify-content: center;
+    padding-top: 90px;
+    padding-bottom: 60px;
+}
+
+hr{
+    height: 0;
+    width: 450px;
+}
+
+.segunda-parte{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.titulo-carrossel{
+    font-weight: 700;
+    font-size: 60px;
+}
+
+.subtitulo{
+    text-align: center;
+    font-size: 20px;
+    padding: 40px;
+}
+
+.carrossel .container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.buttons-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px; 
+    margin-top: 50px;
+}
+
+.terceira-parte{
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.container2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 98px;
+    margin-left: 220px;
+    width: 1260px;
+    height: 635px;
+    padding-right: 20px;
+}
+
+.text {
+    margin-left: -300px;
+    text-align: right;
+}
+
+.paragrafo2{
+    padding: 20px 0px 20px 20px;
+    width: 560px;
+    color: #ffffffda;
+    font-weight: 400;
+    font-size: 1.15rem;
+
+}
+
+.quarta-parte{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.botões{
+    display: flex;
+    gap: 40px;
+}
