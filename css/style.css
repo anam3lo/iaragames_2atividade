@@ -7,6 +7,36 @@ nav{
     box-shadow: 0 0 20px 10px rgba(8, 2, 187, 0.5);
 }
 
+.searchbar{
+    margin-bottom: auto;
+    margin-top: auto;
+    width: 45vh;
+    height: 8vh;
+    background-color: #181818;
+    border-radius: 5vh;
+    padding: 10px;
+}
+
+.search_input{
+    background-color: #181818;
+    border: 0;
+    line-height: 40px;
+    outline: none;
+    color: #fff;
+    }
+
+    .search_icon{
+        height: 40px;
+        width: 40px;
+        float: right;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        color:white;
+        text-decoration:none;
+        }
+
 main{
     padding-top: 85px;
 }

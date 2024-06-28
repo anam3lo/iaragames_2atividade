@@ -7,7 +7,7 @@
     <script src="https://kit.fontawesome.com/070e1c2622.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet"> rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <title>Iara Games</title>
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/style.css">
@@ -23,9 +23,16 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ms-auto">
-            <li class="nav-item">
-                <a class="nav-link ms-5 text-light" href="#">APP</a>
-            </li>
+
+                <div class="container h-100">
+                    <div class="d-flex justify-content-center h-100 ms-5 me-5">
+                      <div class="searchbar">
+                        <input class="search_input" type="text" id="search" placeholder="Encontre seu favorito!">
+                        <a href="#" class="search_icon" id="search-button" onclick="searchGame()"><i class="fas fa-search"></i></a>
+                      </div>
+                    </div>
+                  </div>
+
             <li class="nav-item">
                 <a class="nav-link ms-5 text-light" href="#">GAMES</a>
             </li>
@@ -160,6 +167,8 @@
         </div>
     </div>
     <button type="button" class="btn btn-link text-light float-end me-5">+Ver mais</button>
+
+    <script src="js/index.js"></script>
 
 </body>
 </html>
