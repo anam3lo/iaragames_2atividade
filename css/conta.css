@@ -1,0 +1,31 @@
+.left-side{
+    position: relative;
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.metade{
+    position: relative; 
+    border-radius: 13px;
+    background: linear-gradient(90deg, rgba(26, 174, 117, 0.48) 0%, rgba(19, 100, 200, 0.48) 52.5%, rgba(149, 40, 150, 0.48) 100%);
+    width: 810px;
+    height: 1000px;
+    flex-shrink: 0;
+    z-index: 1; 
+    filter: blur(9.3px);
+}
+
+.mermaid {
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+.mermaid img {
+    max-width: 100%;
+    height: auto;
+    filter: none; 
+}

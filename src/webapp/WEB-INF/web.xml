@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://java.sun.com/xml/ns/javaee" version="3.0">
+    <servlet>
+        <servlet-name>UsuarioServlet</servlet-name>
+        <servlet-class>com.iaragames.servlets.UsuarioServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UsuarioServlet</servlet-name>
+        <url-pattern>/usuarios</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>JogoServlet</servlet-name>
+        <servlet-class>com.iaragames.servlets.JogoServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>JogoServlet</servlet-name>
+        <url-pattern>/jogos</url-pattern>
+    </servlet-mapping>
+</web-app>

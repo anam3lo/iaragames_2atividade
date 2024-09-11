@@ -108,7 +108,10 @@ hr{
 
 .terceira-parte{
     margin-top: 80px;
-    margin-bottom: 80px;
+    display: flex;
+    justify-content: center;
+    padding-top: 90px;
+    padding-bottom: 60px;
 }
 
 .container2{
@@ -116,7 +119,6 @@ hr{
     justify-content: center;
     align-items: center;
     border-radius: 98px;
-    margin-left: 220px;
     width: 1260px;
     height: 635px;
     padding-right: 20px;
@@ -133,7 +135,6 @@ hr{
     color: #ffffffda;
     font-weight: 400;
     font-size: 1.15rem;
-
 }
 
 .quarta-parte{

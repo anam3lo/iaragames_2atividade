@@ -1,0 +1,95 @@
+.formLogin {
+    display: flex;
+    flex-direction: column;
+    border-radius: 7px;
+    padding: 40px;
+    gap: 5px;
+    width: 540px;
+    height: 84px;
+    margin-top: 15vh;
+    justify-content: flex-start;
+}
+
+.areaLogin img {
+    width: 420px;
+    
+}
+
+
+.formLogin input {
+    padding: 15px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    margin-top: 5px;
+    border-radius: 4px;
+    transition: all linear 160ms;
+    outline: none;
+    background-color: #161825;
+    color: #fff;
+    justify-content: start;
+}
+
+input::placeholder {
+    color: rgb(255, 255, 255);
+  }
+
+
+.formLogin label {
+    font-size: 14px;
+    font-weight: 600;
+    font-family: Roboto;
+    
+}
+
+.formLogin a {
+    display: inline-block;
+    margin-bottom: 20px;
+    font-size: 13px;
+    color: #ffffff;
+    transition: all linear 160ms;
+}
+
+.btn {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    border: none !important;
+    transition: all linear 160ms;
+    cursor: pointer;
+    margin: 0 !important;
+    
+
+}
+
+.left-side{
+    position: relative;
+    flex: 1;
+}
+
+.metade{
+    position: relative; 
+    border-radius: 13px;
+    background: linear-gradient(90deg, rgba(26, 174, 117, 0.48) 0%, rgba(19, 100, 200, 0.48) 52.5%, rgba(149, 40, 150, 0.48) 100%);
+    width: 810px;
+    height: 1000px;
+    flex-shrink: 0;
+    z-index: 1; 
+    filter: blur(9.3px);
+    z-index: 0;
+}
+
+.mermaid {
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+.mermaid img {
+    max-width: 100%;
+    height: auto;
+    filter: none; 
+}
+
